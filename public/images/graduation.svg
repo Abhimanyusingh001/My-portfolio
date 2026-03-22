@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="95" fill="#0E0E10"/>
+
+  <!-- Open Book -->
+  <path d="M50 80 Q75 60 100 80 Q125 60 150 80 L150 130 Q125 110 100 130 Q75 110 50 130 Z"
+        fill="#FFFFFF"/>
+
+  <!-- Book Line -->
+  <line x1="100" y1="80" x2="100" y2="130"
+        stroke="#0E0E10"
+        stroke-width="3"/>
+
+  <!-- Graduation Cap -->
+  <polygon points="70,60 100,45 130,60 100,75"
+           fill="#FFA116"/>
+
+  <!-- Cap Base -->
+  <rect x="85" y="75" width="30" height="6"
+        fill="#FFA116"/>
+
+  <!-- Tassel -->
+  <line x1="130" y1="60" x2="145" y2="75"
+        stroke="#FFA116"
+        stroke-width="3"/>
+</svg>

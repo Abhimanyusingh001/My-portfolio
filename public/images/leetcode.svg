@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <!-- Background -->
+  <rect width="320" height="100" fill="#0E0E10"/>
+
+  <!-- LeetCode Icon -->
+  <!-- Outer curve -->
+  <path d="M60 30
+           A25 25 0 1 1 60 70"
+        fill="none"
+        stroke="#FFA116"
+        stroke-width="10"
+        stroke-linecap="round"/>
+
+  <!-- Inner slash -->
+  <line x1="45" y1="50" x2="80" y2="50"
+        stroke="#FFFFFF"
+        stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- Text -->
+  <text x="120" y="65"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="36"
+        fill="white"
+        font-weight="bold">
+    LeetCode
+  </text>
+</svg>
