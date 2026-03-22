@@ -49,16 +49,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/Screenshot 2026-03-14 at 8.15.01 PM.png" alt="SkillSwap Website Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                SkillSwap - The Ultimate Skill Exchange Platform
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A dynamic skill-sharing website built with modern web technologies.
               </p>
             </div>
           </div>

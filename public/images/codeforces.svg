@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <!-- Background -->
+  <rect width="320" height="100" fill="#0E0E10"/>
+
+  <!-- Logo Bars -->
+  <rect x="20" y="40" width="20" height="40" rx="4" fill="#1F8ACB"/>
+  <rect x="50" y="25" width="20" height="55" rx="4" fill="#2DBE60"/>
+  <rect x="80" y="30" width="20" height="50" rx="4" fill="#F7B500"/>
+
+  <!-- Text -->
+  <text x="120" y="65"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="36"
+        fill="white"
+        font-weight="bold">
+    Codeforces
+  </text>
+</svg>

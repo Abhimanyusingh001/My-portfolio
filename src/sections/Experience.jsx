@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import { expCards } from "../constants";
+import { eduCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
 
@@ -91,22 +91,22 @@ const Experience = () => {
 
   return (
     <section
-      id="experience"
+      id="education"
       className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
     >
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
-          title="Professional Work Experience"
-          sub="💼 My Career Overview"
+          title="Education & Coding Profiles"
+          sub="🎓 My Academic Background & Competitive Programming"
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
-            {expCards.map((card) => (
+            {eduCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
                     <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                      {/* <img src={card.imgPath} alt="exp-img" /> */}
                     </div>
                   </GlowCard>
                 </div>
@@ -126,7 +126,7 @@ const Experience = () => {
                           🗓️&nbsp;{card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          {card.achievementType || "Details"}
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(
@@ -135,6 +135,18 @@ const Experience = () => {
                                 {responsibility}
                               </li>
                             )
+                          )}
+                          {card.link && (
+                            <li className="text-lg">
+                              <a
+                                href={card.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-400 hover:text-blue-300 underline"
+                              >
+                                View Profile →
+                              </a>
+                            </li>
                           )}
                         </ul>
                       </div>
