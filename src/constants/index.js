@@ -73,7 +73,7 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/puzzle-piece.svg",
+    imgPath: "/images/leetcode.svg",
     title: "Problem Solver",
     desc: "Tackling complex technical challenges with creative solutions and analytical thinking to deliver effective results.",
   },
@@ -91,32 +91,32 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "ReactJs",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "TypeScript Developer",
+    name: "TypeScript",
     imgPath: "/images/logos/typescript.svg",
   },
   {
-    name: "C++ Developer",
+    name: "C++",
     imgPath: "/images/logos/cpp.svg",
   },
   {
-    name: "Java Developer",
+    name: "Java",
     imgPath: "/images/logos/java.svg",
   },
 ];
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "ReactJs",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
