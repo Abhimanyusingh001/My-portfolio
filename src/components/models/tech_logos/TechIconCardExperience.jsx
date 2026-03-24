@@ -6,17 +6,9 @@ import * as THREE from "three";
 const TechIconCardExperience = ({ model }) => {
   const scene = useGLTF(model.modelPath);
 
-  useEffect(() => {
-    if (model.name === "Interactive Developer") {
-      scene.scene.traverse((child) => {
-        if (child.isMesh) {
-          if (child.name === "Object_5") {
-            child.material = new THREE.MeshStandardMaterial({ color: "white" });
-          }
-        }
-      });
-    }
-  }, [scene]);
+  // Removed hardcoded "Interactive Developer" check after renaming skills
+  useEffect(() => {}, [scene]);
+
 
   return (
     <Canvas>

@@ -105,8 +105,8 @@ const techStackImgs = [
 ];
 
 const techStackIcons = [
-  {
-    name: "ReactJs",
+{
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
@@ -118,23 +118,24 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend",
+    name: "Node.js",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive",
+    name: "Three.js",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
+
 ];
 
 const eduCards = [
@@ -155,12 +156,14 @@ const eduCards = [
   {
     review: "Consistently practicing DSA and competitive programming problems to improve problem-solving skills.",
     // imgPath: "/images/exp2.png",
+    imgPath: "/images/leetcode.svg",
     logoPath: "/images/leetcode.svg",
     title: "LeetCode Profile",
     date: "2023 – Present",
     achievementType: "Coding Platform",
     link: "https://leetcode.com/u/abhisingh_01_/",
     responsibilities: [
+
       "Solving DSA problems regularly",
       "Improving algorithmic thinking",
       "Participating in weekly contests",
@@ -184,36 +187,36 @@ const eduCards = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Bashar Khan",
+    mentions: "@basharkhan",
     review:
       "I can't say enough good things about Abhimanyu. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Abhinav Singh",
+    mentions: "@abhinavsingh",
     review:
       "Working with Abhimanyu was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Purushotham",
+    mentions: "@purushotham",
     review:
       "Collaborating with Abhimanyu was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhimanyu's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhimanyu is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Kartik Agarwal",
+    mentions: "@kartikagarwal",
     review:
       "Abhimanyu was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that's both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Srujan Reddy",
+    mentions: "@srujanreddy",
     review:
       "Abhimanyu's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He's a true professional!",
     imgPath: "/images/client4.png",
@@ -226,6 +229,7 @@ const testimonials = [
     imgPath: "/images/client6.png",
   },
 ];
+
 
 const socialImgs = [
   {
