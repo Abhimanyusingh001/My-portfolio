@@ -91,10 +91,6 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "ReactJs",
-    imgPath: "/images/logos/react.png",
-  },
-  {
     name: "TypeScript",
     imgPath: "/images/logos/typescript.svg",
   },
@@ -122,13 +118,13 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Backend",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Interactive",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],

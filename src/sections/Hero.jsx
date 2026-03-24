@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Abhimanyu Singh, a developer with a passion for
+              Hi, I'm Abhimanyu Singh with a passion for
               code.
             </p>
 
