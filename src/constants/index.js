@@ -1,9 +1,5 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
-  },
-  {
     name: "Education",
     link: "#education",
   },
@@ -14,6 +10,10 @@ const navLinks = [
   {
     name: "Testimonials",
     link: "#testimonials",
+  },
+  {
+    name: "View Resume",
+    link: "https://drive.google.com/file/d/1NHo772i0GxmKryE4Y-PbSCsa0Q06vbSA/view?usp=sharing",
   },
 ];
 
@@ -105,7 +105,7 @@ const techStackImgs = [
 ];
 
 const techStackIcons = [
-{
+  {
     name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
@@ -135,13 +135,11 @@ const techStackIcons = [
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
-
 ];
 
 const eduCards = [
   {
     review: "Currently pursuing B.Tech in Computer Science with specialization in Full Stack Development and a minor in UI/UX.",
-    // imgPath: "/images/exp1.png",
     logoPath: "/images/graduation.svg",
     title: "Bachelor of Technology (B.Tech) in Computer Science",
     date: "2023 – Present",
@@ -155,7 +153,6 @@ const eduCards = [
   },
   {
     review: "Consistently practicing DSA and competitive programming problems to improve problem-solving skills.",
-    // imgPath: "/images/exp2.png",
     imgPath: "/images/leetcode.svg",
     logoPath: "/images/leetcode.svg",
     title: "LeetCode Profile",
@@ -163,7 +160,6 @@ const eduCards = [
     achievementType: "Coding Platform",
     link: "https://leetcode.com/u/abhisingh_01_/",
     responsibilities: [
-
       "Solving DSA problems regularly",
       "Improving algorithmic thinking",
       "Participating in weekly contests",
@@ -171,7 +167,6 @@ const eduCards = [
   },
   {
     review: "Achieved Pupil rating and actively participate in rated contests.",
-    // imgPath: "/images/exp3.png",
     logoPath: "/images/codeforces.svg",
     title: "Codeforces Profile",
     date: "2023 – Present",
@@ -230,15 +225,11 @@ const testimonials = [
   },
 ];
 
-
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/abhimanyusingh12",
   },
   {
     name: "x",
@@ -248,6 +239,11 @@ const socialImgs = [
     name: "linkedin",
     imgPath: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/abhimanyusingh12/",
+  },
+  {
+    name: "resume",
+    imgPath: "/images/book.svg",
+    link: "https://drive.google.com/file/d/1NHo772i0GxmKryE4Y-PbSCsa0Q06vbSA/view?usp=sharing",
   },
 ];
 
@@ -263,4 +259,3 @@ export {
   techStackImgs,
   navLinks,
 };
-
