@@ -79,12 +79,15 @@ const AppShowcase = () => {
               <h2>The Library Management Platform</h2>
             </a>
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+            <a href="https://github.com/Abhimanyusingh001/YC-DIRECTORY.git" target="_blank" rel="noopener noreferrer" className="project group" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#FFE7EB] relative overflow-hidden rounded-xl group-hover:border-2 group-hover:border-white/30">
+                <img src="/images/project3.png" alt="YC Directory App" className="w-full h-full object-contain transition-all duration-500 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
+                  <span className="text-white font-bold text-lg px-6 py-3 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-xl opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300">View on GitHub →</span>
+                </div>
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
-            </div>
+            </a>
           </div>
         </div>
       </div>
