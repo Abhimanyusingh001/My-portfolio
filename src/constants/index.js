@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     name: "View Resume",
-    link: "https://drive.google.com/file/d/1NHo772i0GxmKryE4Y-PbSCsa0Q06vbSA/view?usp=sharing",
+    link: "https://drive.google.com/file/d/17gtxDkiQDJTv3pRdUoDWt8w3XT6kFbYo/view?usp=sharing",
   },
 ];
 
@@ -243,7 +243,7 @@ const socialImgs = [
   {
     name: "resume",
     imgPath: "/images/book.svg",
-    link: "https://drive.google.com/file/d/1NHo772i0GxmKryE4Y-PbSCsa0Q06vbSA/view?usp=sharing",
+    link: "https://drive.google.com/file/d/17gtxDkiQDJTv3pRdUoDWt8w3XT6kFbYo/view?usp=sharing",
   },
 ];
 
