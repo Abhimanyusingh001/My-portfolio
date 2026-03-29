@@ -65,15 +65,19 @@ const AppShowcase = () => {
           </a>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+            <a href="https://github.com/Abhimanyusingh001/LIBRARY-MANAGEMENT-SYSTEM.git" target="_blank" rel="noopener noreferrer" className="project group" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB] relative overflow-hidden rounded-xl group-hover:border-2 group-hover:border-white/30">
                 <img
                   src="/images/project2.png"
                   alt="Library Management Platform"
+                  className="w-full h-full object-contain transition-all duration-500 group-hover:scale-105"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
+                  <span className="text-white font-bold text-lg px-6 py-3 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-xl opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300">View on GitHub →</span>
+                </div>
               </div>
               <h2>The Library Management Platform</h2>
-            </div>
+            </a>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
