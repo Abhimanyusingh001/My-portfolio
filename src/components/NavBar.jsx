@@ -31,14 +31,35 @@ const NavBar = () => {
 
         <nav className="desktop">
           <ul>
-{navLinks.map(({ link, name }) => (
-              <li key={name} className="group">
-                <a href={link} target="_blank" rel="noopener noreferrer">
-                  <span>{name}</span>
-                  <span className="underline" />
-                </a>
-              </li>
-            ))}
+            {navLinks.map(({ link, name }) => {
+              const isInternal = link.startsWith('#');
+              const handleClick = (e) => {
+                if (isInternal) {
+                  e.preventDefault();
+                  const id = link.slice(1);
+                  const target = document.getElementById(id);
+                  if (target) {
+                    const offset = window.innerHeight * 0.15;
+                    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top, behavior: "smooth" });
+                  }
+                }
+              };
+
+              return (
+                <li key={name} className="group">
+                  <a 
+                    href={link} 
+                    target={isInternal ? undefined : "_blank"} 
+                    rel={isInternal ? undefined : "noopener noreferrer"}
+                    onClick={handleClick}
+                  >
+                    <span>{name}</span>
+                    <span className="underline" />
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </nav>
 
